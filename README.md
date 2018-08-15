@@ -17,7 +17,7 @@ Julia tutorials for dummy.
 
 > Windows
 >
-> 左下方"開始" > "Julia 0.6.4" > "julia-0.6.4"
+> 左下方"開始" > "Julia 1.0.0" > "julia-1.0.0"
 
 ### Install Jupyter
 
@@ -29,7 +29,7 @@ Julia tutorials for dummy.
 
 > Windows
 >
-> 左下方"開始" > "Julia 0.6.4" > "julia-0.6.4"
+> 左下方"開始" > "Julia 1.0.0" > "julia-1.0.0"
 >
 > 會進入 Julia 的互動式命令介面
 >
@@ -49,7 +49,7 @@ Julia tutorials for dummy.
 
 > Windows
 >
-> 左下方"開始" > "Julia 0.6.4" > "julia-0.6.4"
+> 左下方"開始" > "Julia 1.0.0" > "julia-1.0.0"
 >
 > 會進入 Julia 的互動式命令介面
 >

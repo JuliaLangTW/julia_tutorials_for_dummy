@@ -13,6 +13,35 @@ Julia tutorials for dummy.
 >
 > 直接點擊安裝檔~~無腦~~安裝。
 
+> macOS
+>
+> 安裝好後，應該可以在 `/Applications` 找到 `Julia-<version>.app` (最新版是 `1.0.0`)
+> 點擊兩下應該會開啟 Terminal 並進入 `julia` 的 consule
+>
+> 如果你跟我一樣不喜歡用觸控板點點點，比較喜歡打字
+> 可以考慮在 `~/.bash_profile` 中加入這一小段
+```{bash}
+_setup_julia(){
+    if [ "$(uname -s)" != 'Darwin' ]; then
+        echo 'julia setup function works only on macOS';
+        return 2;
+    fi; 
+    JULIA_APP="$(command ls /Applications | grep -i julia | sort -r | head -1)";
+    if [ ! "${JULIA_APP}" ]; then
+        echo "Julia is not installed";
+        return 1;
+    fi; 
+    JULIA_PATH="/Applications/${JULIA_APP}/Contents/Resources/julia/bin";
+    export PATH=$PATH:$JULIA_PATH;
+    unset JULIA_APP JULIA_PATH;
+}
+_setup_julia
+unset _setup_julia
+```
+> 之後開一個新的 Terminal 起來，直接執行 `julia`，
+> 應該就可以看到最新版的 `julia` consule
+
+
 ### Test Julia
 
 > Windows

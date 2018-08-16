@@ -67,6 +67,6 @@ Julia tutorials for dummy.
 
 ### Slides
 
-* [1 簡介](/notebook/1_introduction.slides.html)
-* [2 組織起來吧！](/notebook/2_organize_it.slides.html)
+* [1 簡介](/slides/1_introduction.slides.html)
+* [2 組織起來吧！](/slides/2_organize_it.slides.html)
 * [3 型別系統]()

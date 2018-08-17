@@ -88,4 +88,14 @@ unset _setup_julia
 
 ## Contents
 
+### Notebooks
+
 * [1 簡介](/notebook/1_introduction.ipynb)
+* [2 組織起來吧！](/notebook/2_organize_it.ipynb)
+* [3 型別系統]()
+
+### Slides
+
+* [1 簡介](/slides/1_introduction.slides.pdf)
+* [2 組織起來吧！](/slides/2_organize_it.slides.pdf)
+* [3 型別系統]()

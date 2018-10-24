@@ -16,7 +16,7 @@ Julia tutorials for dummy.
 > macOS
 >
 > 安裝好後，應該可以在 `/Applications` 找到 `Julia-<version>.app` (最新版是 `1.0.0`)
-> 點擊兩下應該會開啟 Terminal 並進入 `julia` 的 consule
+> 點擊兩下應該會開啟 Terminal 並進入 `julia` 的 console
 >
 > 如果你跟我一樣不喜歡用觸控板點點點，比較喜歡打字
 > 可以考慮在 `~/.bash_profile` 中加入這一小段
@@ -39,7 +39,7 @@ _setup_julia
 unset _setup_julia
 ```
 > 之後開一個新的 Terminal 起來，直接執行 `julia`，
-> 應該就可以看到最新版的 `julia` consule
+> 應該就可以看到最新版的 `julia` console
 
 
 ### Test Julia
